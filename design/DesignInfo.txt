@@ -1,0 +1,15 @@
+	The problem that I am solving is allowing people to imagine clothing onto their bodies, in particular, designed T-shirts. 
+To tackle this program, I built a module that allows users to design t-shirts and another module that simulates the designed
+tshirts onto the user.  
+	In the application  that allows users to design T-shirts, users are able change the tshirt color and 
+add things such as Textboxes and images. The key challenge in this part of the program is to remember how the user designs their
+tshirt. The program needs to remember how the user changes details about the tshirt color, textboxes, and images as
+they are the key features that define the unique tshirt. For each image for example, the details that need to be 
+remembered would be the image content, the position of where the image relative to the tshirt, and the dimensions. For textboxes,
+the details would be the textbox's text, font, color, position relative to the tshirt, and dimensions. Only by remembering how the 
+user changes the data and designs their tshirt will the program be able to provide a simulation of that unique tshirt.  
+	Once the users want to try on their designed tshirt, the program will transfer all of the important details remembered 
+in the design t-shirt module to the module that simulates the designed tshirts. The Kinect Module will get
+the dimensions of the user's body and will reconfigure the the details transfered
+from the design program. The Kinect Module will then use the data manipulated according to the body' dimensions and 
+be able to provide a simulation of how the tshirt would look according to the user's body. 
